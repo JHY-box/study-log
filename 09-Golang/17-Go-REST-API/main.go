@@ -121,6 +121,7 @@ func todosHandler(w http.ResponseWriter, r *http.Request) {
 	}
 }
 
+
 func main() {
 	// `/todos/`로 등록해야 /todos/1 같은 path 파라미터를 받음
 	http.HandleFunc("/todos/", todosHandler)
