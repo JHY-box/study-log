@@ -1,0 +1,9 @@
+# Node.js 기본 무시 파일
+node_modules
+npm-debug.log
+
+# 환경변수 파일 (매우 중요)
+.env
+
+
+node_modules
